@@ -1,0 +1,109 @@
+
+/*-----RESETS STYLES-------*/
+
+@import "nullstyle.scss";
+
+
+
+/*--------------FONTS----------------*/
+
+@import url('');
+
+
+/*------------BODY-----------------*/
+
+body {
+	font-family: Montserrat;
+	font-weight: 400;
+}
+
+/*------BODY.LOCK FOR BURGER-------*/
+/*
+body._lock {
+	overflow: hidden;
+}
+*j/
+
+/*-----------WRAPPER--------------*/
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	display: flex;
+	flex-direction: column;
+}
+
+/*--------------CONTAINER----------*/
+
+[class*="__container"] {
+	max-width: 1240px;
+	margin: 0px auto;
+	padding: 0px 20px;
+	position: relative;
+	box-sizing: border-box;
+
+	@media (max-width: 1024px) {
+		padding: 0px 15px;
+	}
+
+	@media (max-width: 768px) {
+		padding: 0px 10px;
+	}
+}
+
+/*------------CONTAINER-BIG--------*/
+/*
+[class*="__container-big"] {
+	max-width: 1440px;
+	margin: 0px auto;
+	padding: 0px;
+	position: relative;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+*/
+
+
+
+/*----------TITLE-----------*/
+
+.title{
+	
+}
+
+/*----------SUB-TITLE-----------*/
+
+.sub-title{
+	
+}
+
+/*----------PARAGRAPH-----------*/
+
+.paragraph{
+
+}
+
+
+
+
+
+
+/*-----------IMPORTS----------------*/
+
+/*-----------HEADER----------------*/
+
+@import "header.scss";
+
+/*-----------MAIN-------------*/
+
+main {
+	flex: 1 1 auto
+}
+
+
+
+/*-----------FOOTER-----------*/
+
+@import "footer.scss";
+
+
