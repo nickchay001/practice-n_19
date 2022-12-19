@@ -7,7 +7,7 @@
 
 /*--------------FONTS----------------*/
 
-@import url('');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Roboto&display=swap');
 
 
 /*------------BODY-----------------*/
@@ -36,7 +36,7 @@ body._lock {
 /*--------------CONTAINER----------*/
 
 [class*="__container"] {
-	max-width: 1240px;
+	max-width: 1136px;
 	margin: 0px auto;
 	padding: 0px 20px;
 	position: relative;
