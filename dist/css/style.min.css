@@ -76,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------FONTS----------------*/
 /*------------BODY-----------------*/
 body {
-  font-family: Montserrat;
+  font-family: Plus Jakarta Sans;
   font-weight: 400;
 }
 
@@ -130,6 +130,108 @@ body._lock {
 /*----------PARAGRAPH-----------*/
 /*-----------IMPORTS----------------*/
 /*-----------HEADER----------------*/
+.header {
+  min-height: 88px;
+  padding: 23px 0px 22px 0px;
+}
+
+.header__container {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 95px;
+  height: 43px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__logo img {
+  max-width: 70px;
+}
+
+.header__menu {
+  display: flex;
+  margin-left: 40px;
+}
+
+.menu-header__list {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.menu-header__items {
+  position: relative;
+  font-size: 15px;
+  line-height: 115%;
+  color: #000000;
+}
+
+.items-header-menu__title {
+  display: flex;
+  align-items: center;
+}
+.items-header-menu__title img {
+  margin-left: 9px;
+  width: 13px;
+  height: 6px;
+  transition-duration: 400ms;
+}
+.items-header-menu__title:hover .items-header-menu__list {
+  background-color: red;
+}
+.items-header-menu__title:hover img {
+  rotate: 180deg;
+}
+
+.items-header-menu__list {
+  position: absolute;
+  top: 30px;
+  width: 100%;
+  left: 0;
+  padding: 20px;
+  background-color: #000000;
+}
+.items-header-menu__list li {
+  display: flex;
+  justify-content: start;
+  color: red;
+}
+.items-header-menu__list li:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.items-header-menu__link {
+  color: #000000;
+}
+
+.menu-header__buttons {
+  margin-left: 153px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  line-height: 115%;
+  color: #000000;
+  column-gap: 20px;
+}
+
+.buttons-header__sign-in {
+  color: #000000;
+}
+
+.buttons-header__demo {
+  color: #FFFFFF;
+  padding: 14px 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 100px;
+}
+
 /*-----------MAIN-------------*/
 main {
   flex: 1 1 auto;
