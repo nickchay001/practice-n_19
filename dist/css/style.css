@@ -97,7 +97,7 @@ body._lock {
 
 /*--------------CONTAINER----------*/
 [class*=__container] {
-  max-width: 1136px;
+  max-width: 1156px;
   margin: 0px auto;
   padding: 0px 20px;
   position: relative;
@@ -240,12 +240,12 @@ body._lock {
   color: #000000;
   column-gap: 20px;
 }
-@media (max-width: 1140px) {
+@media (max-width: 1150px) {
   .menu-header__buttons {
     margin-left: 40px;
   }
 }
-@media (max-width: 1024px) {
+@media (max-width: 1030px) {
   .menu-header__buttons {
     margin-left: 0px;
   }
@@ -271,7 +271,7 @@ body._lock {
   border-radius: 100px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1030px) {
   .header__logo {
     position: relative;
     z-index: 5;
@@ -336,9 +336,9 @@ body._lock {
     content: " ";
     position: absolute;
     width: 100%;
-    top: 0;
+    top: -23px;
     left: 0;
-    height: 85px;
+    height: 73px;
     background-color: #FFFFFF;
     z-index: 2;
   }
