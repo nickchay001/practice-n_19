@@ -11,4 +11,14 @@ if(iconMenu){
 		headerMenu.classList.toggle('_active');
 	})
 }
-
+/*
+const supportMenu = document.querySelector('.Equity-Management-button');
+if(iconMenu){
+	const headerMenu = document.querySelector('.header__menu');
+	iconMenu.addEventListener("click", function(e) {
+		document.body.classList.toggle('_lock');
+		iconMenu.classList.toggle('_active');
+		headerMenu.classList.toggle('_active');
+	})
+}
+*/

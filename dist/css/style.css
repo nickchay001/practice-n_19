@@ -124,8 +124,57 @@ body._lock {
 }
 */
 /*----------TITLE-----------*/
+.title {
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #000000;
+}
+
 /*----------SUB-TITLE-----------*/
 /*----------PARAGRAPH-----------*/
+/*-----------BUTTONS-----------*/
+.black-button {
+  color: #FFFFFF;
+  padding: 14px 20px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 100px;
+  transition-duration: 1000ms;
+}
+.black-button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.lil-black-button {
+  color: #FFFFFF;
+  padding: 11px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+  border-radius: 100px;
+  transition-duration: 1000ms;
+}
+.lil-black-button:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+  text-decoration: underline;
+}
+
+.button {
+  display: flex;
+  color: #000000;
+  transition-duration: 400ms;
+}
+.button:hover {
+  text-decoration: underline;
+}
+
 /*-----------IMPORTS----------------*/
 /*-----------HEADER----------------*/
 .header {
@@ -546,29 +595,9 @@ main {
   max-width: 159px;
 }
 
-/*-----------FOOTER-----------*/
-/*-----------BUTTONS-----------*/
-.black-button {
-  color: #FFFFFF;
-  padding: 14px 20px 16px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #000000;
-  border-radius: 100px;
-  transition-duration: 1000ms;
-}
-.black-button:hover {
-  color: #000000;
-  background-color: #FFFFFF;
-  text-decoration: underline;
+.content-info-support__button {
+  max-width: 154px;
+  column-gap: 10px;
 }
 
-.button {
-  display: flex;
-  color: #000000;
-  transition-duration: 400ms;
-}
-.button:hover {
-  text-decoration: underline;
-}
+/*-----------FOOTER-----------*/

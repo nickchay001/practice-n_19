@@ -64,7 +64,12 @@ body._lock {
 
 /*----------TITLE-----------*/
 
-.title {}
+.title {
+	font-size: 50px;
+	line-height: 59px;
+	text-align: center;
+	color: #000000;
+}
 
 /*----------SUB-TITLE-----------*/
 
@@ -74,6 +79,52 @@ body._lock {
 
 .paragraph {}
 
+/*-----------BUTTONS-----------*/
+
+.black-button {
+	color: #FFFFFF;
+	padding: 14px 20px 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+	border-radius: 100px;
+	transition-duration: 1000ms;
+
+	&:hover {
+		color: #000000;
+		background-color: #FFFFFF;
+		text-decoration: underline;
+	}
+}
+
+.lil-black-button {
+	color: #FFFFFF;
+	padding: 11px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+	border-radius: 100px;
+	transition-duration: 1000ms;
+
+	&:hover {
+		color: #000000;
+		background-color: #FFFFFF;
+		text-decoration: underline;
+	}
+}
+
+
+.button {
+	display: flex;
+	color: #000000;
+	transition-duration: 400ms;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}
 
 
 
@@ -93,6 +144,8 @@ main {
 
 @import "page__infrastructure.scss";
 
+@import "page__support";
+
 
 /*-----------FOOTER-----------*/
 
@@ -101,30 +154,7 @@ main {
 
 
 
-/*-----------BUTTONS-----------*/
-
-.black-button{
-	color: #FFFFFF;
-	padding: 14px 20px 16px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #000000;
-	border-radius: 100px;
-	transition-duration: 1000ms;
-	&:hover{
-		color: #000000;
-		background-color: #FFFFFF;
-		text-decoration: underline;
-	}
-}
 
 
-.button{
-	display: flex;
-	color: #000000;
-	transition-duration: 400ms;
-	&:hover{
-		text-decoration: underline;
-	}
-}
+
+
