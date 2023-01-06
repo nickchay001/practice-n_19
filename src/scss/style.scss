@@ -17,11 +17,9 @@ body {
 }
 
 /*------BODY.LOCK FOR BURGER-------*/
-/*
 body._lock {
 	overflow: hidden;
 }
-*j/
 
 /*-----------WRAPPER--------------*/
 
@@ -93,8 +91,40 @@ main {
 	flex: 1 1 auto
 }
 
+@import "page__infrastructure.scss";
 
 
 /*-----------FOOTER-----------*/
 
 @import "footer.scss";
+
+
+
+
+/*-----------BUTTONS-----------*/
+
+.black-button{
+	color: #FFFFFF;
+	padding: 14px 20px 16px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #000000;
+	border-radius: 100px;
+	transition-duration: 1000ms;
+	&:hover{
+		color: #000000;
+		background-color: #FFFFFF;
+		text-decoration: underline;
+	}
+}
+
+
+.button{
+	display: flex;
+	color: #000000;
+	transition-duration: 400ms;
+	&:hover{
+		text-decoration: underline;
+	}
+}

@@ -1,0 +1,174 @@
+.page__infrastructure {
+	margin-top: 32px;
+}
+
+.infrastructure__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	height: 423px;
+}
+
+.infrastructure__images {
+	position: absolute;
+	width: 100% - 3.5%;
+	height: 100%;
+	overflow: hidden;
+	@media (max-width: 630px) {
+		opacity: 0.2;
+	}
+}
+
+.images-infrastructure {}
+
+.images-infrastructure__image {}
+
+.up-left {
+	width: 190px;
+	height: 253px;
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		@media (max-width: 920px) {
+			width: 70%;
+			height: 70%;
+		}
+		@media (max-width: 768px) {
+			width: 50%;
+			height: 50%;
+		}
+	}
+
+}
+
+.down-left {
+	width: 261px;
+	height: 147px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		@media (max-width: 920px) {
+			width: 70%;
+			height: 70%;
+		}
+		@media (max-width: 768px) {
+			width: 50%;
+			height: 50%;
+		}
+	}
+}
+
+.up-right {
+	width: 190px;
+	height: 237px;
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	img {
+		width: 100%;
+		height: 100%;
+
+		@media (max-width: 920px) {
+			width: 70%;
+			height: 70%;
+			position: absolute;
+			right: 0;
+		}
+		@media (max-width: 768px) {
+			width: 50%;
+			height: 50%;
+		}
+	}
+}
+
+.down-right {
+	width: 261px;
+	height: 174px;
+	position: absolute;
+	bottom: -12px;
+	right: 0;
+	img {
+		width: 100%;
+		height: 100%;
+
+		@media (max-width: 920px) {
+			width: 70%;
+			height: 70%;
+			position: absolute;
+			right: 0;
+			top: 2px;
+		}
+		@media (max-width: 768px) {
+			width: 50%;
+			height: 50%;
+		}
+	}
+}
+
+.infrastructure__text {
+	margin-top: 39px;
+	position: relative;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: #000000;
+	max-width: 424px;
+
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
+}
+
+.infrastructure__title {
+	font-size: 50px;
+	line-height: 110%;
+	text-align: center;
+
+	@media (max-width: 1024px) {
+		font-size: 45px;
+	}
+
+	@media (max-width: 768px) {
+		font-size: 40px;
+	}
+}
+
+.infrastructure__paragraph {
+	margin-top: 51px;
+	font-size: 20px;
+	line-height: 150%;
+	text-align: center;
+
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
+}
+
+.infrastructure__buttons {
+	margin-top: 46px;
+	display: flex;
+	column-gap: 36px;
+	align-items: center;
+
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
+}
+
+.infrastructure__button-demo {
+	max-width: 159px;
+}
+
+.infrastructure__button-take_tour {}

@@ -83,24 +83,23 @@
 .items-header-menu__list {
 	display: none;
 	position: absolute;
-	top: 30px;
+	top: 0px;
 	z-index: 2;
 	width: 100%;
 	left: 0;
-	padding: 20px;
-	border: 1px solid #FFFFFF;
-	background-color: #000000;
+	padding: 30px 0px 0px 0px;
+
 
 	& li {
+		width: 100px;
+		height: 40px;
+		background-color: #000000;
 		display: flex;
-		justify-content: start;
-		color: rgb(255, 255, 255);
+		align-items: center;
+		justify-content: center;
+		color: #FFFFFF;
 		font-size: 15px;
 		line-height: 115%;
-	}
-
-	& li:not(:last-child) {
-		margin-bottom: 20px;
 	}
 }
 
@@ -136,17 +135,11 @@
 .buttons-header {}
 
 .buttons-header__sign-in {
-	color: #000000;
+	
 }
 
 .buttons-header__demo {
-	color: #FFFFFF;
-	padding: 14px 20px 16px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	background-color: #000000;
-	border-radius: 100px;
+	
 }
 
 
@@ -216,6 +209,7 @@
 		padding: 130px 20px 20px 20px;
 		flex-direction: column;
 		overflow: auto;
+		z-index: 2;
 		transition: left 0.4s ease 0s;
 		row-gap: 40px;
 	}
