@@ -727,4 +727,42 @@ main {
   text-align: center;
 }
 
+.page__partners {
+  padding-top: 158px;
+}
+@media (max-width: 1024px) {
+  .page__partners {
+    padding-top: 40px;
+  }
+}
+@media (max-width: 768px) {
+  .page__partners {
+    padding-top: 20px;
+  }
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 768px) {
+  .partners__list {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.partners__item {
+  max-width: 145px;
+}
+.partners__item img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 768px) {
+  .partners__item {
+    max-width: 120px;
+  }
+}
+
 /*-----------FOOTER-----------*/
