@@ -1,0 +1,106 @@
+.page__generation {
+	padding-top: 117px;
+	@media (max-width: 1024px) {
+		padding-top: 80px;
+	}
+	@media (max-width: 768px) {
+		padding-top: 0px;
+	}
+}
+
+.generation__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.generation__title {
+	max-width: 649px;
+}
+
+.title {}
+
+.generation__equity-owners {}
+
+.equity-owners {}
+
+.equity-owners__number {
+	margin-top: 55px;
+	max-width: 388px;
+	border: 3px solid #000000;
+	font-size: 69px;
+	line-height: 101%;
+	text-align: center;
+	padding: 12px 28px 11px;
+	@media (max-width: 768px) {
+		font-size: 50px;
+		margin-top: 30px;
+	}
+}
+
+.equity-owners__title {
+	margin-top: 6px;
+	font-size: 16px;
+	line-height: 115%;
+	text-align: center;
+}
+
+.generation__info {
+	margin-top: 46px;
+	display: flex;
+	width: 662px;
+	@media (max-width: 768px) {
+		margin-top: 30px;
+		flex-wrap: wrap;
+		width: 100%;
+		justify-content: space-between;
+		
+		row-gap: 20px;
+		column-gap: 40px;
+	}
+	@media (max-width: 534px) {
+		justify-content: center;
+	}
+}
+
+.info-generation {}
+
+.info-generation__column {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	&:first-child,&:last-child{
+		.info-generation__number {
+			font-size: 39px;
+			line-height: 118%;
+		}
+	}
+	&:first-child{
+		max-width: 175px;
+		margin-right: 100px;
+		@media (max-width: 768px) {
+			margin-right: 0px;
+		}
+	}
+	&:last-child{
+		max-width: 136px;
+		margin-left:120px;
+		@media (max-width: 768px) {
+			margin-left: 0px;
+		}
+	}
+
+}
+
+.info-generation__number {
+	font-size: 34px;
+	line-height: 135%;
+	text-align: center;
+}
+
+.info-generation__title {
+	margin-top: 10px;
+	font-size: 19px;
+	line-height: 158%;
+	text-align: center;
+}
