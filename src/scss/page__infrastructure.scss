@@ -19,9 +19,7 @@
 	}
 }
 
-.images-infrastructure {}
 
-.images-infrastructure__image {}
 
 .up-left {
 	width: 190px;
@@ -148,13 +146,7 @@
 
 .infrastructure__paragraph {
 	margin-top: 51px;
-	font-size: 20px;
-	line-height: 150%;
-	text-align: center;
-
-	@media (max-width: 768px) {
-		margin-top: 30px;
-	}
+	
 }
 
 .infrastructure__buttons {
@@ -172,4 +164,3 @@
 	max-width: 159px;
 }
 
-.infrastructure__button-take_tour {}

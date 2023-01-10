@@ -82,11 +82,19 @@ body._lock {
 
 /*----------SUB-TITLE-----------*/
 
-.sub-title {}
+
 
 /*----------PARAGRAPH-----------*/
 
-.paragraph {}
+.paragraph {
+	font-size: 20px;
+	line-height: 150%;
+	text-align: center;
+
+	@media (max-width: 768px) {
+		margin-top: 30px;
+	}
+}
 
 /*-----------BUTTONS-----------*/
 
@@ -153,11 +161,13 @@ main {
 
 @import "page__infrastructure.scss";
 
-@import "page__support";
+@import "page__support.scss";
 
-@import "page__generation";
+@import "page__generation.scss";
 
-@import "page__partners";
+@import "page__partners.scss";
+
+@import "page__built.scss";
 
 
 
